@@ -8,18 +8,20 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div>
-        <a class="volver-btn" href="index.php">Volver</a>
+    <div class="form-inputs-contentedor">
+        <div>
+            <h2>INGRESA</h2>
+        </div>
+        <input class="input-nombre" type="text" placeholder="Nombre">
+        <br>
+        <input class="input-nombre" type="password" placeholder="Contraseña">
+        <br>
+        <input class="input-ingresar" type="submit" value="Ingresar">
+        <div>
+            <small>
+                No tienes una cuenta? <a class="volver-btn2" href="register.php">Crea tu cuenta</a>
+            </small>
+        </div>
     </div>
-    <input class="input-nombre" type="text" placeholder="Nombre">
-    <br>
-    <input class="input-nombre" type="password" placeholder="Contra">
-    <br>
-    <input class="input-ingresar" type="submit" value="Ingresar">
-    <div>
-        <small>
-            No tienes una cuenta? <a class="volver-btn2" href="register.php">Crea tu cuenta</a>
-        </small>
-    </div>
-</body>
+    </body>
 </html>

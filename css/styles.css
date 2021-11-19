@@ -53,12 +53,17 @@ footer{
     width: 262px;
     font-size: 14px;
     font-weight: bold;
+    cursor: pointer;
 }
-.volver-btn{
-    color: var(--white);
-    margin-bottom: 20px;
-    display: block;
-}
+
 .volver-btn2{
     color: var(--white);
 }
+    .form-inputs-contentedor{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        /* justify-content: center; */
+            align-items: center;
+        flex-direction: column;
+    }
