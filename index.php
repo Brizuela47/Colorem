@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,11 +12,11 @@
 </head>
 <body>
     <div class="contenedor">
-        <div class="contenido">aaaaaaaaaaaaaaaaaa</div>
+        <div class="contenido">UwU</div>
         <footer>
             <div>
-                <a href="login.php">Ingresar</a>
-                <a href="register.php">Registrar</a>
+                <a class="a-login" href=".\vista\login.php">Ingresar</a>
+                <a class="a-register" href=".\vista\register.php">Registrar</a>
             </div>
         </footer>
     </div>

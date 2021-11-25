@@ -24,7 +24,7 @@ body{
 }
 footer{
     height: 100px;
-    border: 1px solid black;
+    border: 1px solid rgb(170, 170, 170);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,3 +67,13 @@ footer{
             align-items: center;
         flex-direction: column;
     }
+
+footer a{
+    color: var(--white);
+    font-size: 20px;
+}
+
+.a-login{
+    margin-right: 10px;
+
+}
