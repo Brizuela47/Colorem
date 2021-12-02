@@ -77,3 +77,11 @@ footer a{
     margin-right: 10px;
 
 }
+/* ----------------------------------------------------------- */
+
+.gif{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+}

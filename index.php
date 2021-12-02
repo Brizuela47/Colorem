@@ -12,7 +12,9 @@ session_start();
 </head>
 <body>
     <div class="contenedor">
-        <div class="contenido">UwU</div>
+        <div class="contenido">
+            <div class="gif"></div>
+        </div>
         <footer>
             <div>
                 <a class="a-login" href=".\vista\login.php">Ingresar</a>
@@ -20,5 +22,6 @@ session_start();
             </div>
         </footer>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
