@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.0
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 02-12-2021 a las 21:23:45
--- Versión del servidor: 10.4.19-MariaDB
--- Versión de PHP: 7.3.28
+-- Tiempo de generación: 03-12-2021 a las 02:58:16
+-- Versión del servidor: 10.4.21-MariaDB
+-- Versión de PHP: 8.0.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -39,7 +39,10 @@ CREATE TABLE `usuarios` (
 
 INSERT INTO `usuarios` (`id_usuario`, `username`, `contrasena`) VALUES
 (1, 'asa', 'asa'),
-(2, 'a', 'a');
+(2, 'a', 'a'),
+(3, 'brandon', 'brandon'),
+(4, 'gaby', 'gaby'),
+(5, 'lucas', 'lucas');
 
 --
 -- Índices para tablas volcadas
@@ -59,7 +62,7 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
