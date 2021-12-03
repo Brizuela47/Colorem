@@ -12,7 +12,7 @@ $resultado=mysqli_query($conexion, $consulta);
 $filas=mysqli_num_rows($resultado);
 
 if($filas){
-	include("../index.php");
+	header("Location: ../index.php");
 }
 else{
 	?>

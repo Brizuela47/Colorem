@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foodies | Login</title>
     <link rel="icon" href="img/core-img/favicon.ico" >
-    <link rel="stylesheet" href="css/styles.css"> 
+    <link rel="stylesheet" href="../css/styles.css"> 
 </head>
 <body>
     <div class="form-inputs-contentedor">
